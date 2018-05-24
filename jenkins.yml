@@ -10,6 +10,8 @@ services:
     secrets:
       - jenkins-user
       - jenkins-pass
+    restart: always
+
  
 secrets:
   jenkins-user:
