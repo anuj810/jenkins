@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:lts-alpine
+FROM aabhassinha/jenkins-ubuntu-v1.1
  
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
  
