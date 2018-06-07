@@ -3,7 +3,7 @@ version: '3.1'
 services:
  
   main:
-    image: aabhassinha/jenkins-v1.1
+    image: aabhassinha/jenkinsv1.1
     ports:
       - 8080:8080
       - 50000:50000
