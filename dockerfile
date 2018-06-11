@@ -1,4 +1,4 @@
-FROM aabhassinha/jenkins-ubuntu-v1.1
+FROM modernjenkins/jenkins-master
  
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
  
